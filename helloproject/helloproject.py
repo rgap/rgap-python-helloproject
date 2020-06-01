@@ -1,5 +1,5 @@
 def hello():
-    print 'Hello!'
+    print('Hello!')
 
 def hellov2():
-    print 'Hello_v2!'
+    print('Hello_v2!')

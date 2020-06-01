@@ -8,7 +8,7 @@ short_description = (
 )
 setuptools.setup(
     name='helloproject',
-    version='1.0',
+    version='2.0',
     author='Rel Guzman',
     author_email='rel.guzmanapaza@sydney.edu.au',
     description=short_description,
