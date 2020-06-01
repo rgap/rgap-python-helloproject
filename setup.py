@@ -1,13 +1,31 @@
-from setuptools import setup
+import setuptools
 
-setup(
+with open("LICENSE", "r") as fh:
+    license = fh.read()
+
+with open("README.md", "r") as fh:
+    readme = fh.read()
+
+short_description = (
+    "A pip-installable package example."
+)
+setuptools.setup(
     name='helloproject',
-    version='0.0.2',
-    description='a pip-installable package example',
-    license='MIT',
-    packages=['helloproject'],
+    version='0.0.4',
     author='Rel Guzman',
     author_email='rel.guzmanapaza@sydney.edu.au',
+    description=short_description,
+    long_description=readme,
+    long_description_content_type="text/markdown",
+    url='https://github.com/rgap/helloproject',
     keywords=['example'],
-    url='https://github.com/rgap/helloproject'
+    packages=setuptools.find_packages(exclude=("notebooks", "docs", "scripts")),
+    license="GPL",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Operating System :: OS Independent",
+    ],
+    install_requires=[
+        "numpy >= 1.18.1",
+    ]
 )
