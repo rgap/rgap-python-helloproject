@@ -1,8 +1,5 @@
 import setuptools
 
-with open("LICENSE", "r") as fh:
-    license = fh.read()
-
 with open("README.md", "r") as fh:
     readme = fh.read()
 
@@ -11,7 +8,7 @@ short_description = (
 )
 setuptools.setup(
     name='helloproject',
-    version='0.0.4',
+    version='1.0',
     author='Rel Guzman',
     author_email='rel.guzmanapaza@sydney.edu.au',
     description=short_description,
