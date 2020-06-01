@@ -1,0 +1,8 @@
+README.rst
+setup.py
+helloproject/__init__.py
+helloproject/helloproject.py
+helloproject.egg-info/PKG-INFO
+helloproject.egg-info/SOURCES.txt
+helloproject.egg-info/dependency_links.txt
+helloproject.egg-info/top_level.txt
