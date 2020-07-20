@@ -14,9 +14,9 @@ Arguments:
 # TODO:
 
 try:
-    from character import BaseCharacter
+    from helloproject.character import BaseCharacter
 except ImportError:
-    from .character import BaseCharacter
+    from character import BaseCharacter
 
 
 class Zombie(BaseCharacter):

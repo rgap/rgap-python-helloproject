@@ -1,6 +1,5 @@
 README.md
 setup.py
-helloproject/__init__.py
 helloproject/helloproject.py
 helloproject.egg-info/PKG-INFO
 helloproject.egg-info/SOURCES.txt

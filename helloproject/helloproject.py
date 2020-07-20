@@ -10,7 +10,7 @@ Arguments:
     asset   string (path to image)
 """
 
-from characters.zombie import Zombie
+from helloproject.characters.zombie import Zombie
 
 
 def hello():
