@@ -14,7 +14,7 @@ Arguments:
 # TODO:
 
 try:
-    from helloproject.character import BaseCharacter
+    from helloproject.characters.character import BaseCharacter
 except ImportError:
     from character import BaseCharacter
 

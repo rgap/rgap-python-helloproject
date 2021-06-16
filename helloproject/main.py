@@ -3,14 +3,15 @@
 """This is the main file
 
 Usage:
-    helloproject.py <asset>
-    helloproject.py -h
+    main.py <asset>
+    main.py -h
 
 Arguments:
     asset   string (path to image)
 """
 
 from helloproject.characters.zombie import Zombie
+from helloproject import definitions
 
 
 def hello():
@@ -29,6 +30,7 @@ def hello_zombie(asset):
 def main(args):
     asset = args['<asset>']
     hello_zombie(asset)
+    print(definitions.names['code1'])
 
 
 if __name__ == "__main__":
