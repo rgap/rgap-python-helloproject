@@ -16,7 +16,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url='https://github.com/rgap/helloproject',
     keywords=['example'],
-    packages=setuptools.find_packages(helloproject, exclude=("notebooks", "docs", "scripts")),
+    packages=setuptools.find_packages(".")# find_packages(exclude=("notebooks", "docs", "scripts")),
     license="GPL",
     classifiers=[
         "Programming Language :: Python :: 3",
