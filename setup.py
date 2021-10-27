@@ -21,8 +21,8 @@ setuptools.setup(
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
-    ],
-    install_requires=[
-        "numpy >= 1.18.1",
-    ]
+    ]#,
+    # install_requires=[
+    #     "numpy >= 1.18.1",
+    # ]
 )
