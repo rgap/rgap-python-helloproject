@@ -1,8 +1,6 @@
 README.md
 setup.py
-helloproject/helloproject.py
 helloproject.egg-info/PKG-INFO
 helloproject.egg-info/SOURCES.txt
 helloproject.egg-info/dependency_links.txt
-helloproject.egg-info/requires.txt
 helloproject.egg-info/top_level.txt
